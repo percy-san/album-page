@@ -46,6 +46,7 @@
 	.song-info{
 		line-height: 3px;
 	}
+
 	.song-name, .album, .number, .duration{color: white;}
 	.song-name{
 		font-weight: 500;
@@ -55,5 +56,14 @@
 		font-weight: 200;
 		font-size: 15px;
 	}
+
+	@media screen and (max-width: 900px) {
+		.song-name{
+			font-size: 15px;
+			word-break: break-all;
+		}
+		
+		
+}
 	
 </style>
